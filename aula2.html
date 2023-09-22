@@ -3,31 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Document</title>
 </head>
 <body>
 
-    <h1>Cadastro</h1>
+    <h1 id="titulo">Cadastro</h1>
+<div>
  <form>
 
-    <label for="nome">Nome</label>
+    <label for="nome"><strong>Nome:</strong></label>
+    <br>
     <input id="nome" type="text">
-    <br><br><br>
-    <label for="sunha">senha</label>
-    <input id="senha" type="password">
-    <br><br><br>
-    <label for="Idade">Idade</label>
-    <input id="Idade" type="number">
-    <br><br><br>
-    <label for="email">E mail</label>
-    <input id="email" type="email">
-    <br><br><br>
-    <label for="Data">Data de nascimento</label>
-    <input id="Data" type="date">
-    <br><br><br>
-
     <br><br>
-    <p>Selecione o curso:</p>
+    <label for="sunha"><strong>Senha</strong></label>
+    <br>
+    <input id="senha" type="password">
+    <br><br>
+    <label for="Idade"><strong>Idade:</strong></label>
+    <br>
+    <input id="Idade" type="number">
+    <br><br>
+    <label for="email"><strong>E-mail</strong></label>
+    <br>
+    <input id="email" type="email">
+    <br><br>
+    <label for="Data"><strong>Data de nascimento</strong></label>
+    <br>
+    <input id="Data" type="date">
+    <br>
+
+    <p><strong>Selecione o curso:</strong></p>
     <select>
  
      <option>Frontend</option>
@@ -36,9 +42,9 @@
      
     </select>
     
-    <br><br>
+    <br>
 
-    <p>Secione o turno:</p>
+    <p><strong>Secione o turno:</strong></p>
    <select>
 
     <option>Manhã</option>
@@ -47,7 +53,7 @@
     
    </select>
 
-   <p>Genero:</p>
+   <p><strong>Genero:</strong></p>
    <input id="option1" type="radio" name="grupo01">
    <label for="option1">Feminino</label>
    <br>
@@ -58,7 +64,7 @@
    <label for="option2">Outros</label>
 
 
-   <p>Experiencia</p>
+   <p><strong>Experiencia</strong></p>
    <input id="option3" type="radio" name="grupo02">
    <label for="option3">Iniciante</label>
    <br>
@@ -72,13 +78,13 @@
    <label for="checkbox">Aceito os termos e condições</label>
 
    <br><br>
-   <input type="submit" value="Enviar">
+   <input id="enviar" type="submit" value="Enviar">
    <br><br>
 
    <details>
 
 
-    <summary>Porque precisanmos desas informações</summary>
+    <summary><strong>Porque precisanmos desas informações</strong></summary>
     <br>
     <option>Usamos seu nome para personalizar as opções</option>
     <br>
@@ -89,7 +95,7 @@
     <option>Ao selecionar o genero e experiencia, podemos adaptar melhor os nossos matérias para atender as suas necessidades expecificas</option>
    </details>
  </form>
-
+</div>
 
 
     

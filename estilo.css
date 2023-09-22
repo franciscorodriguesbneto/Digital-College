@@ -1,0 +1,38 @@
+div {
+    display: flexbox;
+    position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); 
+    background: #fff;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+body {
+    background: rgb(212, 239, 240);
+}
+
+ label {
+    font-size: medium;
+   
+    
+}
+
+
+#titulo {
+    text-align: center;
+    
+}
+
+#enviar {
+    background-color: rgb(0, 174, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+   
+option {
+  display: block; 
+  
+}
