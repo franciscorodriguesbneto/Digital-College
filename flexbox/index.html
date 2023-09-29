@@ -4,8 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox</title>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          background-color: #f4f4f4;
+          height: 100vh;
+        }
+    
+        .header {
+          display: flex;
+          justify-content: space-between;
+          background-color: #333;
+          align-items: center;
+          padding: 20px;
+        }
+    
+        .logo {
+          font-size: 20px;
+          color: white;
+        }
+    
+        .menu {
+          display: flex;
+          gap: 15px;
+        }
+    
+        a {
+          color: white;
+        }
+    
+        a:hover {
+          color: lightgray;
+          cursor: pointer;
+        }
+
+        .list {
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+            flex-wrap:wrap;
+
+        }
+
+        .card {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            gap: 15px;
+            box-shadow: 0 0 10px  rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+        }
+    
+      </style>
 </head>
 <body>
-    
+    <div class="header">
+        <div class="logo">Logo</div>
+        <div class="menu">
+          <a class="menu-item">Início</a>
+          <a>Sobre</a>
+          <a>Contato</a>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="card">
+            <img class="avatar" src="imagens/avatar1.png">
+            <b>Francisco</b>
+            <p class="profissão">Programador</p>
+        </div>
+
+        <div class="card">
+            <img class="avatar" src="imagens/avatar1.png">
+            <b>Francisco</b>
+            <p class="profissão">Programador</p>
+        </div>
+
+        <div class="card">
+            <img class="avatar" src="imagens/avatar1.png">
+            <b>Francisco</b>
+            <p class="profissão">Programador</p>
+        </div>
+
+        <div class="card">
+            <img class="avatar" src="imagens/avatar1.png">
+            <b>Francisco</b>
+            <p class="profissão">Programador</p>
+        </div>
+      </div>
+
+     
+
+     
+
+      
 </body>
 </html>
